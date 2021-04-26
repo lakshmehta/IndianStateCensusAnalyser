@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CensusAdapter.cs" />
+    <Compile Include="CensusAnalyser.cs" />
+    <Compile Include="CensusAnalyserException.cs" />
+    <Compile Include="CSVAdapterFactory.cs" />
+    <Compile Include="DTO\CensusDTO.cs" />
+    <Compile Include="IndianCensusAdapter.cs" />
+    <Compile Include="POCO\CensusDataDAO.cs" />
+    <Compile Include="POCO\StateCodeDAO.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
